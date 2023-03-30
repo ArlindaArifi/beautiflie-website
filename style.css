@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@400;600&display=swap');
+body{
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    margin-left: 110px;
+    margin-right: 60px;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(214,37,152);
+}
+.nav-link{
+    color: rgb(10, 10, 94);
+}
+.nav-link:hover{
+    color: rgb(214,37,152);
+    transition: 0.3s;
+}
+.nav-item{
+    color: rgb(7, 7, 78);
+    font-weight: 500;
+    padding-left: 35px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn0{
+    height: 52px;
+    width: 130px;
+    outline: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: all 0.4s;
+    background-color: rgb(241,171,185)
+}
+.btn0:hover{
+    background: rgb(255,188,217);
+    transition: all 0.4s;
+}
+.btn1{
+    
+    height: 52px;
+    width: 130px;
+    background-color: transparent;
+    color: rgb(255,188,217);
+    outline: none;
+    transition: all 0.4s;
+    border: 2px solid rgb(2255,188,217);
+}
+.btn1:hover{
+    background-color: rgb(255,188,217);
+    transition: all 0.4s;
+    color: white;
+    border: none;
+    outline: none;
+}
+.main{
+    background: url(./imgs/istockphoto-1460100364-170667a.jpg)no-repeat;
+    background-size: cover;
+    min-height: 105vh;
+    width: 100%;
+
+   
+}
+.main h1{
+     font-size: 110px;
+     font-weight: 900;
+     color: black;
+     margin-top: 70px;
+     font-family: 'Dancing Script', cursive;
+     margin-bottom: 45px;
+}
+.main input{
+    height: 70px;
+    width: 70%;
+    border: none;
+    outline: none;
+    padding: 15px;
+
+}
+.btn2{
+    height: 71px;
+    width: 50%;
+    border: none;
+    background-color: rgb(222,93,131);
+    color: white;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.4s;
+    margin-left: -4px;
+    border-radius: 50%;
+    margin-top: 45px;
+
+}
+.btn2:hover{
+    background-color: rgb(255,62,165);
+    transition: all 0.4s;
+}
+.red{
+    color: red;
+}
+.ceta h1{
+    font-size: 3.5rem;
+    color: rgb(7, 7, 78)
+}
+.ceta .card:hover{
+    color: red;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 2px 3px 24px -10px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 2px 3px 24px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 3px 24px -10px rgba(0,0,0,0.75);
+
+}
+.btn3{
+    height: 70px;
+    width: 70%;
+    border: 1px solid black;
+    background: transparent;
+    border-radius: 5px;
+    transition: all 0.4s;
+    color: black;
+}
+.btn3:hover{
+    background-color: rgb(252,142,172);
+    transition: all 0.4s;
+    cursor: pointer;
+    color: white;
+    border: none;
+    outline: none;
+
+}
+.resume{
+    background: url(imgs/istockphoto-1320345717-612x612.jpg);
+    background-size: cover;
+    background-position: center center;
+    
+}
+.resume h1{
+    font-size: 3.8rem;
+}
+.job h1{
+    font-size: 3.5rem;
+    color: rgb(7, 7, 78);
+}
+.btn4{
+    height: 60px;
+    width: 30%;
+    outline: none;
+    border: none;
+    background: rgb(255,188,217);
+    color: white;
+    transition: all 0.4s;
+}
+.btn4:hover{
+    background: rgb(241,171,185);
+    color: white;
+    transition: all 0.4s;
+    border: none;
+    outline: none;
+
+}
+.apply{
+    background: url(imgs/istockphoto-1362723188-612x612.jpg)no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+
+.container1{
+    max-width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.footer{
+    background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+    
+
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color:#ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color:#bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+
+}
+.footer-col ul li a:hover{
+    color:#ffffff;
+    padding-left: 8px;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width:40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-right:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color:#ffffff;
+    transition: all 0.3s ease;
+}
+.footer-col .social-links a:hover{
+    color:#24262b;
+    background-color: #ffffff;
+}
+
+@media(max-width: 767px){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width: 574px){
+    .footer-col{
+        width: 100%;
+        
+    }
+}
